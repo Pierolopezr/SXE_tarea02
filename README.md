@@ -46,8 +46,15 @@ Creamos un archivo en Apache para que muestre WordPress desde su carpeta y funci
 Habilitamos el archivo con "sudo a2ensite wordpress"
 Activa la reescritura de URL con: sudo a2enmod rewrite
 Desactivar el sitio predeterminado de "Funciona" con: sudo a2dissite 000-default 
-Finalmente, recarga apache2 para aplicar todos estos cambios:  
+Finalmente, recarga apache2 para aplicar todos estos cambios:  sudo service apache2 reload  
 
 <img width="600" height="450" alt="imagen" src="https://github.com/user-attachments/assets/925167e0-024d-4881-aa83-d7d2c74c854c" />
+
+<img width="944" height="534" alt="Captura desde 2025-09-26 13-01-54" src="https://github.com/user-attachments/assets/b0308d73-6cce-4c63-8247-4f2aeaa90f8b" />
+
+<img width="946" height="252" alt="Captura desde 2025-09-26 13-02-19" src="https://github.com/user-attachments/assets/5362e4f1-a316-4433-8721-a8834e747815" />
+<img width="944" height="257" alt="Captura desde 2025-09-26 13-02-50" src="https://github.com/user-attachments/assets/6aa52062-016a-46fd-8c07-bd3378a40d7b" />
+<img width="932" height="309" alt="imagen" src="https://github.com/user-attachments/assets/893327ae-4655-4c13-b45a-803a8b3f6835" />
+Finalmente lo habilitamos con sudo service mysql start
 
 
