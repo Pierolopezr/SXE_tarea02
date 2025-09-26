@@ -60,7 +60,7 @@ Creamos la base de datos Wordpress, luego creamos un usuario.
 
 <img width="600" height="450" alt="Captura desde 2025-09-26 13-02-19" src="https://github.com/user-attachments/assets/5362e4f1-a316-4433-8721-a8834e747815" />  
 
-Ahora le damos todos los permisos respectivos al usuario. 
+Ahora le damos todos los permisos respectivos al usuario.  
 
 <img width="600" height="450" alt="Captura desde 2025-09-26 13-02-50" src="https://github.com/user-attachments/assets/6aa52062-016a-46fd-8c07-bd3378a40d7b" />   
 
@@ -69,15 +69,15 @@ Para luego con "FLUSH PRIVILEGES" recargamos los permisos de los usuarios desde 
 <img width="600" height="450" alt="imagen" src="https://github.com/user-attachments/assets/893327ae-4655-4c13-b45a-803a8b3f6835" />  
 
 #### 3.3 Configurar WordPres para conectarse a la base de dato:  
-Primero entramos al archivo de configuración de Wordpress.  Luego, establecemos las credenciales de base de datos en el archivo de configuración
+Primero entramos al archivo de configuración de Wordpress.  Luego, establecemos las credenciales de base de datos en el archivo de configuración  
 
-<img width="600" height="450" alt="imagen" src="https://github.com/user-attachments/assets/ee5a2e1a-b5bf-4d65-9fac-1092c99217d5" />  
+<img width="600" height="450" alt="imagen" src="https://github.com/user-attachments/assets/ee5a2e1a-b5bf-4d65-9fac-1092c99217d5" />    
 
-Finalmente, en una sesión terminal abra el archivo de configuración en nano: sudo -u www-data nano /srv/www/wordpress/wp-config.php con lo que buscaremos lo seleccionado en la imagen y procederemos a borrarlo (ctrl + k).
+Finalmente, en una sesión terminal abra el archivo de configuración en nano: sudo -u www-data nano /srv/www/wordpress/wp-config.php con lo que buscaremos lo seleccionado en la imagen y procederemos a borrarlo (ctrl + k).  
 
-<img width="600" height="450" alt="imagen" src="https://github.com/user-attachments/assets/1d839212-8021-4036-bff5-5d3811f1fe4b" />
+<img width="600" height="450" alt="imagen" src="https://github.com/user-attachments/assets/1d839212-8021-4036-bff5-5d3811f1fe4b" />  
 
-Y luego con el link (https://api.wordpress.org/secret-key/1.1/salt/) se generará una contraseña aleatoria para cada apartado con lo que procederemos a pegarlo en el archivo de configuración. Finalmente, guardamos con (ctrl + x + enter). 
+Y luego con el link (https://api.wordpress.org/secret-key/1.1/salt/) se generará una contraseña aleatoria para cada apartado con lo que procederemos a pegarlo en el archivo de configuración. Finalmente, guardamos con (ctrl + x + enter).  
   
 <img width="600" height="450" alt="Captura desde 2025-09-26 13-42-53" src="https://github.com/user-attachments/assets/1a437a12-7d88-4752-91e9-e4f3ce9a5ae7" />  
 
@@ -88,13 +88,13 @@ Cabe decir que podemos elegir si deseamos hacer nuestro sitio indexado por los m
 
 <img width="600" height="450" alt="imagen" src="https://github.com/user-attachments/assets/55ed4c8c-0699-46cd-8821-4a9f73589f8e" />  
 
-Ahora puede iniciar sesión en http://localhost/wp-login.php o simplemente dándole en "acceder" con lo que ingresaremos los datos de nuestro usuario creado. 
+Ahora puede iniciar sesión en http://localhost/wp-login.php o simplemente dándole en "acceder" con lo que ingresaremos los datos de nuestro usuario creado.  
 
 <img width="600" height="450" alt="imagen" src="https://github.com/user-attachments/assets/8bca8296-4901-4216-a585-b937775f7aa6" />  
 
-Por último, estaría todo terminado apareciéndonos la interfaz de WordPress. 
+Por último, estaría todo terminado apareciéndonos la interfaz de WordPress.  
 
-<img width="600" height="450" alt="imagen" src="https://github.com/user-attachments/assets/68cb26a4-f95c-4416-a38d-f05891fb9e10" />
+<img width="600" height="450" alt="imagen" src="https://github.com/user-attachments/assets/68cb26a4-f95c-4416-a38d-f05891fb9e10" />  
 
 De manera OPCIONAL, si queremos podemos desargar y activar algunos temas. En mi caso, descargué y active el tema "HESTIA".  
 
