@@ -79,7 +79,18 @@ Finalmente, en una sesión terminal abra el archivo de configuración en nano: s
 
 Y luego con el link (https://api.wordpress.org/secret-key/1.1/salt/) se generará una contraseña aleatoria para cada apartado con lo que procederemos a pegarlo en el archivo de configuración. Finalmente, guardamos con (ctrl + x + enter). 
   
-<img width="600" height="450" alt="Captura desde 2025-09-26 13-42-53" src="https://github.com/user-attachments/assets/1a437a12-7d88-4752-91e9-e4f3ce9a5ae7" />
+<img width="600" height="450" alt="Captura desde 2025-09-26 13-42-53" src="https://github.com/user-attachments/assets/1a437a12-7d88-4752-91e9-e4f3ce9a5ae7" />  
+
+#### Configurar WordPress como tal:
+
+<img width="600" height="450" alt="imagen" src="https://github.com/user-attachments/assets/55ed4c8c-0699-46cd-8821-4a9f73589f8e" />  
+<img width="600" height="450" alt="imagen" src="https://github.com/user-attachments/assets/8bca8296-4901-4216-a585-b937775f7aa6" />  
+<img width="600" height="450" alt="imagen" src="https://github.com/user-attachments/assets/68cb26a4-f95c-4416-a38d-f05891fb9e10" />
+<img width="600" height="450" alt="imagen" src="https://github.com/user-attachments/assets/0ab1a7a3-acee-43b7-a01f-466dc60d8ab5" />
+
+
+
+
 
 
 
