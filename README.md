@@ -41,4 +41,13 @@ Ahora procedemos a crear el directorio de instalación y descargar el archivo de
 
 Creamos un archivo en Apache para que muestre WordPress desde su carpeta y funcione correctamente. /etc/apache2/sites-available/wordpress.conf con un "sudo nano..." y posteriormente pegaremos el contenido de la imagen, y finalmente terminaremos guardándolo con un "ctrl + s".  
 
-<img width="600" height="450" alt="Captura desde 2025-09-25 14-33-26" src="https://github.com/user-attachments/assets/ca1c1842-aa9e-4663-935b-c9c5dcadc9bf" />
+<img width="600" height="450" alt="Captura desde 2025-09-25 14-33-26" src="https://github.com/user-attachments/assets/ca1c1842-aa9e-4663-935b-c9c5dcadc9bf" />  
+
+Habilitamos el archivo con "sudo a2ensite wordpress"
+Activa la reescritura de URL con: sudo a2enmod rewrite
+Desactivar el sitio predeterminado de "Funciona" con: sudo a2dissite 000-default 
+Finalmente, recarga apache2 para aplicar todos estos cambios:  
+
+<img width="600" height="450" alt="imagen" src="https://github.com/user-attachments/assets/925167e0-024d-4881-aa83-d7d2c74c854c" />
+
+
