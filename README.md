@@ -83,9 +83,21 @@ Y luego con el link (https://api.wordpress.org/secret-key/1.1/salt/) se generar�
 
 #### Configurar WordPress como tal:
 
+En el navegador, entramos en la dirección "http://localhost/" con la que insertamos cada apartado a libre creatividad, teniendo en cuenta que el nombre de acceso y la contraseña sean diferentes a las credenciales del MySQL. 
+Cabe decir que podemos elegir si deseamos hacer nuestro sitio indexado por los motores de búsqueda (En mi caso, no lo elegí).  
+
 <img width="600" height="450" alt="imagen" src="https://github.com/user-attachments/assets/55ed4c8c-0699-46cd-8821-4a9f73589f8e" />  
+
+Ahora puede iniciar sesión en http://localhost/wp-login.php o simplemente dándole en "acceder" con lo que ingresaremos los datos de nuestro usuario creado. 
+
 <img width="600" height="450" alt="imagen" src="https://github.com/user-attachments/assets/8bca8296-4901-4216-a585-b937775f7aa6" />  
+
+Por último, estaría todo terminado apareciéndonos la interfaz de WordPress. 
+
 <img width="600" height="450" alt="imagen" src="https://github.com/user-attachments/assets/68cb26a4-f95c-4416-a38d-f05891fb9e10" />
+
+De manera OPCIONAL, si queremos podemos desargar y activar algunos temas. En mi caso, descargué y active el tema "HESTIA".  
+
 <img width="600" height="450" alt="imagen" src="https://github.com/user-attachments/assets/0ab1a7a3-acee-43b7-a01f-466dc60d8ab5" />
 
 
