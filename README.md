@@ -37,6 +37,7 @@ Ahora procedemos a crear el directorio de instalación y descargar el archivo de
 
 <img width="1064" height="495" alt="Captura desde 2025-09-25 14-27-30" src="https://github.com/user-attachments/assets/45bf5360-c6b6-4c2e-95d1-2fae24895ecf" />  
 
+Creamos el archivo de Apache para WordPress en la dirección de /etc/apache2/sites-available/wordpress.conf con un "sudo nano..." y posteriormente pegaremos el contenido de la imagen, posteriormente terminaremos guardándolo con un "ctrl + s".  
 
 
 <img width="1166" height="659" alt="Captura desde 2025-09-25 14-33-26" src="https://github.com/user-attachments/assets/ca1c1842-aa9e-4663-935b-c9c5dcadc9bf" />
