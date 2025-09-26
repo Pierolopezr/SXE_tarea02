@@ -54,19 +54,35 @@ Finalmente, recarga apache2 para aplicar todos estos cambios:  sudo service apac
 
 Para ello necesitamos crear la base de datos en MySQL. Primeramente, abrimos SQL con el usuario root.  
 
-<img width="944" height="534" alt="Captura desde 2025-09-26 13-01-54" src="https://github.com/user-attachments/assets/b0308d73-6cce-4c63-8247-4f2aeaa90f8b" />  
+<img width="600" height="450" alt="Captura desde 2025-09-26 13-01-54" src="https://github.com/user-attachments/assets/b0308d73-6cce-4c63-8247-4f2aeaa90f8b" />  
 
 Creamos la base de datos Wordpress, luego creamos un usuario.  
 
-<img width="946" height="252" alt="Captura desde 2025-09-26 13-02-19" src="https://github.com/user-attachments/assets/5362e4f1-a316-4433-8721-a8834e747815" />  
+<img width="600" height="450" alt="Captura desde 2025-09-26 13-02-19" src="https://github.com/user-attachments/assets/5362e4f1-a316-4433-8721-a8834e747815" />  
 
 Ahora le damos todos los permisos respectivos al usuario. 
 
-<img width="944" height="257" alt="Captura desde 2025-09-26 13-02-50" src="https://github.com/user-attachments/assets/6aa52062-016a-46fd-8c07-bd3378a40d7b" />   
+<img width="600" height="450" alt="Captura desde 2025-09-26 13-02-50" src="https://github.com/user-attachments/assets/6aa52062-016a-46fd-8c07-bd3378a40d7b" />   
 
 Para luego con "FLUSH PRIVILEGES" recargamos los permisos de los usuarios desde las tablas de MySQL para que cualquier cambio nuevo tenga efecto inmediato. Después salimos del SQL con "quit" y para así terminar habilitándolo con "sudo service mysql start".   
 
-<img width="932" height="309" alt="imagen" src="https://github.com/user-attachments/assets/893327ae-4655-4c13-b45a-803a8b3f6835" />
+<img width="600" height="450" alt="imagen" src="https://github.com/user-attachments/assets/893327ae-4655-4c13-b45a-803a8b3f6835" />  
+
+#### 3.3 Configurar WordPres para conectarse a la base de dato:  
+Primero entramos al archivo de configuración de Wordpress.  Luego, establecemos las credenciales de base de datos en el archivo de configuración
+
+<img width="600" height="450" alt="imagen" src="https://github.com/user-attachments/assets/ee5a2e1a-b5bf-4d65-9fac-1092c99217d5" />  
+
+Finalmente, en una sesión terminal abra el archivo de configuración en nano: sudo -u www-data nano /srv/www/wordpress/wp-config.php con lo que buscaremos lo seleccionado en la imagen y procederemos a borrarlo (ctrl + k).
+
+<img width="600" height="450" alt="imagen" src="https://github.com/user-attachments/assets/1d839212-8021-4036-bff5-5d3811f1fe4b" />
+
+Y luego con el link (https://api.wordpress.org/secret-key/1.1/salt/) se generará una contraseña aleatoria para cada apartado con lo que procederemos a pegarlo en el archivo de configuración. Finalmente, guardamos con (ctrl + x + enter). 
+  
+<img width="600" height="450" alt="Captura desde 2025-09-26 13-42-53" src="https://github.com/user-attachments/assets/1a437a12-7d88-4752-91e9-e4f3ce9a5ae7" />
+
+
+
 
 
 
